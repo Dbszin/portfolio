@@ -10,9 +10,10 @@ const Navbar = () => {
     }
   return (
     
-        <div className='bg-black  text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center'>
+        <div className='  text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center'>
 
-            <h1 className='text-3xl font-bold text-[rgb(227,0,0)] ml-4'>Douglas</h1>
+        <h1 className="text-3xl font-bold bg-primary-gradient text-transparent bg-clip-text ml-4">Douglas</h1>
+
             <ul className='hidden md:flex'>
                 <li className='p-5'> <a href="#sobre">Sobre</a></li>
                 <li className='p-5'><a href="#trabalho">Trabalho</a></li>
