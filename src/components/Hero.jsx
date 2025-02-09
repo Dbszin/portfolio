@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='w-[250px] sm:w-[300px] lg:w-[350px]'>
         <img 
           src={heroimage} 
-          alt="hero image" 
+          alt="hero" 
           className="w-full h-auto rounded-3xl"
         />
       </div>
